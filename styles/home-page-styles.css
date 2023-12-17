@@ -1,0 +1,149 @@
+/* Ayman Shahin, IS117-001, Fall 2023 */
+
+body {
+    margin: 1px;
+    background: linear-gradient(to right, #434d6d, #434e6d, #44506d, #44516c, #45526c, #47556f, #485773, #4a5a76, #4d5f7e, #506486, #536a8f, #566f97);
+}
+
+.portfolio-title {
+    position: absolute;
+    left: 4%;
+    user-select: none;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    left: 67%;
+}
+
+nav {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    user-select: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+nav ul li {
+    margin-right: 12px;
+}
+
+.dropdown-menu {
+    background-color: #d6d6d6;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #b4b4b4;
+}
+
+.dropdown-menu li a {
+    color: black;
+}
+
+.container {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    color: white;
+}
+
+.container .card {
+    text-align: center;
+    max-width: 250px;
+    border: 2px solid #292929;
+    border-radius: 25px;
+    max-height: 270px;
+}
+
+.container img {
+    margin-bottom: 5.5%;
+}
+
+.card {
+    position: absolute;
+    left: 40%;
+    top: 18%;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.card-body {
+    background: #dcdcdc;
+}
+
+footer {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+    user-select: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolio-title {
+        font-size: 1.5em;
+    }
+
+    .navbar {
+        left: auto;
+        right: 0;
+    }
+
+    .container {
+        left: 20%;
+        top: 10%;
+    }
+
+    .card {
+        left: 20%;
+        top: 8%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

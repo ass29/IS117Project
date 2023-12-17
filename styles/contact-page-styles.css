@@ -1,0 +1,9 @@
+/* Ayman Shahin, IS117-001, Fall 2023 */
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}

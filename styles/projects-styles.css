@@ -1,0 +1,19 @@
+/* Ayman Shahin, IS117-001, Fall 2023 */
+
+.carousel-container {
+    position: absolute;
+    max-width: 50%;
+    top: 20%;
+    left: 25%;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.project-des {
+    margin-bottom: 0;
+}
